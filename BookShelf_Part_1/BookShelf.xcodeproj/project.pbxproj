@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7757B20A1CC62B2B0019B1D9 /* BookShelfFlatAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7757B2031CC62B2B0019B1D9 /* BookShelfFlatAppIcon.png */; };
+		7757B20B1CC62B2B0019B1D9 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7757B2041CC62B2B0019B1D9 /* Icon-40@2x.png */; };
+		7757B20C1CC62B2B0019B1D9 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7757B2051CC62B2B0019B1D9 /* Icon-40@3x.png */; };
+		7757B20D1CC62B2B0019B1D9 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7757B2061CC62B2B0019B1D9 /* Icon-60@2x.png */; };
+		7757B20E1CC62B2B0019B1D9 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7757B2071CC62B2B0019B1D9 /* Icon-60@3x.png */; };
+		7757B20F1CC62B2B0019B1D9 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7757B2081CC62B2B0019B1D9 /* Icon-Small@2x.png */; };
+		7757B2101CC62B2B0019B1D9 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7757B2091CC62B2B0019B1D9 /* Icon-Small@3x.png */; };
+		7757B21F1CC62B5F0019B1D9 /* Ubuntu-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7757B2121CC62B5F0019B1D9 /* Ubuntu-B.ttf */; };
+		7757B2201CC62B5F0019B1D9 /* Ubuntu-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7757B2131CC62B5F0019B1D9 /* Ubuntu-BI.ttf */; };
+		7757B2211CC62B5F0019B1D9 /* Ubuntu-C.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7757B2141CC62B5F0019B1D9 /* Ubuntu-C.ttf */; };
+		7757B2221CC62B5F0019B1D9 /* Ubuntu-L.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7757B2151CC62B5F0019B1D9 /* Ubuntu-L.ttf */; };
+		7757B2231CC62B5F0019B1D9 /* Ubuntu-LI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7757B2161CC62B5F0019B1D9 /* Ubuntu-LI.ttf */; };
+		7757B2241CC62B5F0019B1D9 /* Ubuntu-M.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7757B2171CC62B5F0019B1D9 /* Ubuntu-M.ttf */; };
+		7757B2251CC62B5F0019B1D9 /* Ubuntu-MI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7757B2181CC62B5F0019B1D9 /* Ubuntu-MI.ttf */; };
+		7757B2261CC62B5F0019B1D9 /* Ubuntu-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7757B2191CC62B5F0019B1D9 /* Ubuntu-R.ttf */; };
+		7757B2271CC62B5F0019B1D9 /* Ubuntu-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7757B21A1CC62B5F0019B1D9 /* Ubuntu-RI.ttf */; };
+		7757B2281CC62B5F0019B1D9 /* UbuntuMono-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7757B21B1CC62B5F0019B1D9 /* UbuntuMono-B.ttf */; };
+		7757B2291CC62B5F0019B1D9 /* UbuntuMono-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7757B21C1CC62B5F0019B1D9 /* UbuntuMono-BI.ttf */; };
+		7757B22A1CC62B5F0019B1D9 /* UbuntuMono-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7757B21D1CC62B5F0019B1D9 /* UbuntuMono-R.ttf */; };
+		7757B22B1CC62B5F0019B1D9 /* UbuntuMono-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7757B21E1CC62B5F0019B1D9 /* UbuntuMono-RI.ttf */; };
+		777ED10E1CC61FD5006F5BD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777ED10D1CC61FD5006F5BD7 /* AppDelegate.swift */; };
+		777ED1131CC61FD5006F5BD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777ED1111CC61FD5006F5BD7 /* Main.storyboard */; };
+		777ED1151CC61FD5006F5BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777ED1141CC61FD5006F5BD7 /* Assets.xcassets */; };
+		777ED1181CC61FD5006F5BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777ED1161CC61FD5006F5BD7 /* LaunchScreen.storyboard */; };
+		777ED1231CC61FD5006F5BD7 /* BookShelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777ED1221CC61FD5006F5BD7 /* BookShelfTests.swift */; };
+		777ED12E1CC61FD5006F5BD7 /* BookShelfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777ED12D1CC61FD5006F5BD7 /* BookShelfUITests.swift */; };
+		77DF63A31D3782E6005A2AEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DF63A21D3782E6005A2AEE /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		777ED11F1CC61FD5006F5BD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 777ED1021CC61FD5006F5BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 777ED1091CC61FD5006F5BD7;
+			remoteInfo = BookShelf;
+		};
+		777ED12A1CC61FD5006F5BD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 777ED1021CC61FD5006F5BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 777ED1091CC61FD5006F5BD7;
+			remoteInfo = BookShelf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7757B2031CC62B2B0019B1D9 /* BookShelfFlatAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BookShelfFlatAppIcon.png; path = Resources/Images/AppIcons/BookShelfFlatAppIcon.png; sourceTree = "<group>"; };
+		7757B2041CC62B2B0019B1D9 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40@2x.png"; path = "Resources/Images/AppIcons/Icon-40@2x.png"; sourceTree = "<group>"; };
+		7757B2051CC62B2B0019B1D9 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40@3x.png"; path = "Resources/Images/AppIcons/Icon-40@3x.png"; sourceTree = "<group>"; };
+		7757B2061CC62B2B0019B1D9 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "Resources/Images/AppIcons/Icon-60@2x.png"; sourceTree = "<group>"; };
+		7757B2071CC62B2B0019B1D9 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@3x.png"; path = "Resources/Images/AppIcons/Icon-60@3x.png"; sourceTree = "<group>"; };
+		7757B2081CC62B2B0019B1D9 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Images/AppIcons/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		7757B2091CC62B2B0019B1D9 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@3x.png"; path = "Resources/Images/AppIcons/Icon-Small@3x.png"; sourceTree = "<group>"; };
+		7757B2121CC62B5F0019B1D9 /* Ubuntu-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-B.ttf"; path = "Resources/Fonts/Ubuntu/Ubuntu-B.ttf"; sourceTree = "<group>"; };
+		7757B2131CC62B5F0019B1D9 /* Ubuntu-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-BI.ttf"; path = "Resources/Fonts/Ubuntu/Ubuntu-BI.ttf"; sourceTree = "<group>"; };
+		7757B2141CC62B5F0019B1D9 /* Ubuntu-C.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-C.ttf"; path = "Resources/Fonts/Ubuntu/Ubuntu-C.ttf"; sourceTree = "<group>"; };
+		7757B2151CC62B5F0019B1D9 /* Ubuntu-L.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-L.ttf"; path = "Resources/Fonts/Ubuntu/Ubuntu-L.ttf"; sourceTree = "<group>"; };
+		7757B2161CC62B5F0019B1D9 /* Ubuntu-LI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-LI.ttf"; path = "Resources/Fonts/Ubuntu/Ubuntu-LI.ttf"; sourceTree = "<group>"; };
+		7757B2171CC62B5F0019B1D9 /* Ubuntu-M.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-M.ttf"; path = "Resources/Fonts/Ubuntu/Ubuntu-M.ttf"; sourceTree = "<group>"; };
+		7757B2181CC62B5F0019B1D9 /* Ubuntu-MI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-MI.ttf"; path = "Resources/Fonts/Ubuntu/Ubuntu-MI.ttf"; sourceTree = "<group>"; };
+		7757B2191CC62B5F0019B1D9 /* Ubuntu-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-R.ttf"; path = "Resources/Fonts/Ubuntu/Ubuntu-R.ttf"; sourceTree = "<group>"; };
+		7757B21A1CC62B5F0019B1D9 /* Ubuntu-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-RI.ttf"; path = "Resources/Fonts/Ubuntu/Ubuntu-RI.ttf"; sourceTree = "<group>"; };
+		7757B21B1CC62B5F0019B1D9 /* UbuntuMono-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "UbuntuMono-B.ttf"; path = "Resources/Fonts/Ubuntu/UbuntuMono-B.ttf"; sourceTree = "<group>"; };
+		7757B21C1CC62B5F0019B1D9 /* UbuntuMono-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "UbuntuMono-BI.ttf"; path = "Resources/Fonts/Ubuntu/UbuntuMono-BI.ttf"; sourceTree = "<group>"; };
+		7757B21D1CC62B5F0019B1D9 /* UbuntuMono-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "UbuntuMono-R.ttf"; path = "Resources/Fonts/Ubuntu/UbuntuMono-R.ttf"; sourceTree = "<group>"; };
+		7757B21E1CC62B5F0019B1D9 /* UbuntuMono-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "UbuntuMono-RI.ttf"; path = "Resources/Fonts/Ubuntu/UbuntuMono-RI.ttf"; sourceTree = "<group>"; };
+		777ED10A1CC61FD5006F5BD7 /* BookShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		777ED10D1CC61FD5006F5BD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		777ED1121CC61FD5006F5BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		777ED1141CC61FD5006F5BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		777ED1171CC61FD5006F5BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		777ED1191CC61FD5006F5BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777ED11E1CC61FD5006F5BD7 /* BookShelfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookShelfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		777ED1221CC61FD5006F5BD7 /* BookShelfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookShelfTests.swift; sourceTree = "<group>"; };
+		777ED1241CC61FD5006F5BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777ED1291CC61FD5006F5BD7 /* BookShelfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookShelfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		777ED12D1CC61FD5006F5BD7 /* BookShelfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookShelfUITests.swift; sourceTree = "<group>"; };
+		777ED12F1CC61FD5006F5BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77DF63A21D3782E6005A2AEE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewControllers/ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		777ED1071CC61FD5006F5BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777ED11B1CC61FD5006F5BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777ED1261CC61FD5006F5BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77015CA61CEC76A000AC96FD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		77015CAD1CEC772D00AC96FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				777ED1111CC61FD5006F5BD7 /* Main.storyboard */,
+				777ED1161CC61FD5006F5BD7 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		77015CAE1CEC773600AC96FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7757B1FB1CC625D50019B1D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				777ED1141CC61FD5006F5BD7 /* Assets.xcassets */,
+				7757B1FD1CC625E70019B1D9 /* Fonts */,
+				7757B1FC1CC625DD0019B1D9 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7757B1FC1CC625DD0019B1D9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7757B2021CC62B1E0019B1D9 /* AppIcons */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		7757B1FD1CC625E70019B1D9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7757B2111CC62B500019B1D9 /* Ubuntu */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		7757B1FF1CC625F50019B1D9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				77DF63A21D3782E6005A2AEE /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7757B2021CC62B1E0019B1D9 /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				7757B2031CC62B2B0019B1D9 /* BookShelfFlatAppIcon.png */,
+				7757B2041CC62B2B0019B1D9 /* Icon-40@2x.png */,
+				7757B2051CC62B2B0019B1D9 /* Icon-40@3x.png */,
+				7757B2061CC62B2B0019B1D9 /* Icon-60@2x.png */,
+				7757B2071CC62B2B0019B1D9 /* Icon-60@3x.png */,
+				7757B2081CC62B2B0019B1D9 /* Icon-Small@2x.png */,
+				7757B2091CC62B2B0019B1D9 /* Icon-Small@3x.png */,
+			);
+			name = AppIcons;
+			sourceTree = "<group>";
+		};
+		7757B2111CC62B500019B1D9 /* Ubuntu */ = {
+			isa = PBXGroup;
+			children = (
+				7757B2121CC62B5F0019B1D9 /* Ubuntu-B.ttf */,
+				7757B2131CC62B5F0019B1D9 /* Ubuntu-BI.ttf */,
+				7757B2141CC62B5F0019B1D9 /* Ubuntu-C.ttf */,
+				7757B2151CC62B5F0019B1D9 /* Ubuntu-L.ttf */,
+				7757B2161CC62B5F0019B1D9 /* Ubuntu-LI.ttf */,
+				7757B2171CC62B5F0019B1D9 /* Ubuntu-M.ttf */,
+				7757B2181CC62B5F0019B1D9 /* Ubuntu-MI.ttf */,
+				7757B2191CC62B5F0019B1D9 /* Ubuntu-R.ttf */,
+				7757B21A1CC62B5F0019B1D9 /* Ubuntu-RI.ttf */,
+				7757B21B1CC62B5F0019B1D9 /* UbuntuMono-B.ttf */,
+				7757B21C1CC62B5F0019B1D9 /* UbuntuMono-BI.ttf */,
+				7757B21D1CC62B5F0019B1D9 /* UbuntuMono-R.ttf */,
+				7757B21E1CC62B5F0019B1D9 /* UbuntuMono-RI.ttf */,
+			);
+			name = Ubuntu;
+			sourceTree = "<group>";
+		};
+		777ED1011CC61FD5006F5BD7 = {
+			isa = PBXGroup;
+			children = (
+				777ED10C1CC61FD5006F5BD7 /* BookShelf */,
+				777ED1211CC61FD5006F5BD7 /* BookShelfTests */,
+				777ED12C1CC61FD5006F5BD7 /* BookShelfUITests */,
+				777ED10B1CC61FD5006F5BD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		777ED10B1CC61FD5006F5BD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				777ED10A1CC61FD5006F5BD7 /* BookShelf.app */,
+				777ED11E1CC61FD5006F5BD7 /* BookShelfTests.xctest */,
+				777ED1291CC61FD5006F5BD7 /* BookShelfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		777ED10C1CC61FD5006F5BD7 /* BookShelf */ = {
+			isa = PBXGroup;
+			children = (
+				777ED10D1CC61FD5006F5BD7 /* AppDelegate.swift */,
+				77015CAE1CEC773600AC96FD /* Models */,
+				77E9AE491CEE03010052E7BC /* GlobalFunctions */,
+				77015CA61CEC76A000AC96FD /* ViewModels */,
+				7757B1FF1CC625F50019B1D9 /* ViewControllers */,
+				77015CAD1CEC772D00AC96FD /* Views */,
+				7757B1FB1CC625D50019B1D9 /* Resources */,
+				777ED1191CC61FD5006F5BD7 /* Info.plist */,
+			);
+			path = BookShelf;
+			sourceTree = "<group>";
+		};
+		777ED1211CC61FD5006F5BD7 /* BookShelfTests */ = {
+			isa = PBXGroup;
+			children = (
+				777ED1221CC61FD5006F5BD7 /* BookShelfTests.swift */,
+				777ED1241CC61FD5006F5BD7 /* Info.plist */,
+			);
+			path = BookShelfTests;
+			sourceTree = "<group>";
+		};
+		777ED12C1CC61FD5006F5BD7 /* BookShelfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				777ED12D1CC61FD5006F5BD7 /* BookShelfUITests.swift */,
+				777ED12F1CC61FD5006F5BD7 /* Info.plist */,
+			);
+			path = BookShelfUITests;
+			sourceTree = "<group>";
+		};
+		77E9AE491CEE03010052E7BC /* GlobalFunctions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GlobalFunctions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		777ED1091CC61FD5006F5BD7 /* BookShelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777ED1321CC61FD5006F5BD7 /* Build configuration list for PBXNativeTarget "BookShelf" */;
+			buildPhases = (
+				777ED1061CC61FD5006F5BD7 /* Sources */,
+				777ED1071CC61FD5006F5BD7 /* Frameworks */,
+				777ED1081CC61FD5006F5BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookShelf;
+			productName = BookShelf;
+			productReference = 777ED10A1CC61FD5006F5BD7 /* BookShelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		777ED11D1CC61FD5006F5BD7 /* BookShelfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777ED1351CC61FD5006F5BD7 /* Build configuration list for PBXNativeTarget "BookShelfTests" */;
+			buildPhases = (
+				777ED11A1CC61FD5006F5BD7 /* Sources */,
+				777ED11B1CC61FD5006F5BD7 /* Frameworks */,
+				777ED11C1CC61FD5006F5BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				777ED1201CC61FD5006F5BD7 /* PBXTargetDependency */,
+			);
+			name = BookShelfTests;
+			productName = BookShelfTests;
+			productReference = 777ED11E1CC61FD5006F5BD7 /* BookShelfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		777ED1281CC61FD5006F5BD7 /* BookShelfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777ED1381CC61FD5006F5BD7 /* Build configuration list for PBXNativeTarget "BookShelfUITests" */;
+			buildPhases = (
+				777ED1251CC61FD5006F5BD7 /* Sources */,
+				777ED1261CC61FD5006F5BD7 /* Frameworks */,
+				777ED1271CC61FD5006F5BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				777ED12B1CC61FD5006F5BD7 /* PBXTargetDependency */,
+			);
+			name = BookShelfUITests;
+			productName = BookShelfUITests;
+			productReference = 777ED1291CC61FD5006F5BD7 /* BookShelfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		777ED1021CC61FD5006F5BD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "AcasA Programming";
+				TargetAttributes = {
+					777ED1091CC61FD5006F5BD7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					777ED11D1CC61FD5006F5BD7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 777ED1091CC61FD5006F5BD7;
+					};
+					777ED1281CC61FD5006F5BD7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 777ED1091CC61FD5006F5BD7;
+					};
+				};
+			};
+			buildConfigurationList = 777ED1051CC61FD5006F5BD7 /* Build configuration list for PBXProject "BookShelf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 777ED1011CC61FD5006F5BD7;
+			productRefGroup = 777ED10B1CC61FD5006F5BD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				777ED1091CC61FD5006F5BD7 /* BookShelf */,
+				777ED11D1CC61FD5006F5BD7 /* BookShelfTests */,
+				777ED1281CC61FD5006F5BD7 /* BookShelfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		777ED1081CC61FD5006F5BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7757B2201CC62B5F0019B1D9 /* Ubuntu-BI.ttf in Resources */,
+				7757B22A1CC62B5F0019B1D9 /* UbuntuMono-R.ttf in Resources */,
+				7757B20E1CC62B2B0019B1D9 /* Icon-60@3x.png in Resources */,
+				777ED1181CC61FD5006F5BD7 /* LaunchScreen.storyboard in Resources */,
+				7757B2281CC62B5F0019B1D9 /* UbuntuMono-B.ttf in Resources */,
+				7757B2251CC62B5F0019B1D9 /* Ubuntu-MI.ttf in Resources */,
+				7757B20A1CC62B2B0019B1D9 /* BookShelfFlatAppIcon.png in Resources */,
+				7757B20F1CC62B2B0019B1D9 /* Icon-Small@2x.png in Resources */,
+				7757B2261CC62B5F0019B1D9 /* Ubuntu-R.ttf in Resources */,
+				7757B2291CC62B5F0019B1D9 /* UbuntuMono-BI.ttf in Resources */,
+				7757B2241CC62B5F0019B1D9 /* Ubuntu-M.ttf in Resources */,
+				7757B2271CC62B5F0019B1D9 /* Ubuntu-RI.ttf in Resources */,
+				777ED1151CC61FD5006F5BD7 /* Assets.xcassets in Resources */,
+				7757B2231CC62B5F0019B1D9 /* Ubuntu-LI.ttf in Resources */,
+				7757B20D1CC62B2B0019B1D9 /* Icon-60@2x.png in Resources */,
+				777ED1131CC61FD5006F5BD7 /* Main.storyboard in Resources */,
+				7757B20C1CC62B2B0019B1D9 /* Icon-40@3x.png in Resources */,
+				7757B2211CC62B5F0019B1D9 /* Ubuntu-C.ttf in Resources */,
+				7757B2101CC62B2B0019B1D9 /* Icon-Small@3x.png in Resources */,
+				7757B22B1CC62B5F0019B1D9 /* UbuntuMono-RI.ttf in Resources */,
+				7757B20B1CC62B2B0019B1D9 /* Icon-40@2x.png in Resources */,
+				7757B2221CC62B5F0019B1D9 /* Ubuntu-L.ttf in Resources */,
+				7757B21F1CC62B5F0019B1D9 /* Ubuntu-B.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777ED11C1CC61FD5006F5BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777ED1271CC61FD5006F5BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		777ED1061CC61FD5006F5BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DF63A31D3782E6005A2AEE /* ViewController.swift in Sources */,
+				777ED10E1CC61FD5006F5BD7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777ED11A1CC61FD5006F5BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777ED1231CC61FD5006F5BD7 /* BookShelfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777ED1251CC61FD5006F5BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777ED12E1CC61FD5006F5BD7 /* BookShelfUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		777ED1201CC61FD5006F5BD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 777ED1091CC61FD5006F5BD7 /* BookShelf */;
+			targetProxy = 777ED11F1CC61FD5006F5BD7 /* PBXContainerItemProxy */;
+		};
+		777ED12B1CC61FD5006F5BD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 777ED1091CC61FD5006F5BD7 /* BookShelf */;
+			targetProxy = 777ED12A1CC61FD5006F5BD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		777ED1111CC61FD5006F5BD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				777ED1121CC61FD5006F5BD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		777ED1161CC61FD5006F5BD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				777ED1171CC61FD5006F5BD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		777ED1301CC61FD5006F5BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		777ED1311CC61FD5006F5BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		777ED1331CC61FD5006F5BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BookShelf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BogdanGheorghe.AP.BookShelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		777ED1341CC61FD5006F5BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BookShelf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BogdanGheorghe.AP.BookShelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		777ED1361CC61FD5006F5BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BookShelfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BogdanGheorghe.AP.BookShelfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookShelf.app/BookShelf";
+			};
+			name = Debug;
+		};
+		777ED1371CC61FD5006F5BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BookShelfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BogdanGheorghe.AP.BookShelfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookShelf.app/BookShelf";
+			};
+			name = Release;
+		};
+		777ED1391CC61FD5006F5BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BookShelfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BogdanGheorghe.AP.BookShelfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BookShelf;
+			};
+			name = Debug;
+		};
+		777ED13A1CC61FD5006F5BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BookShelfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BogdanGheorghe.AP.BookShelfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BookShelf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		777ED1051CC61FD5006F5BD7 /* Build configuration list for PBXProject "BookShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777ED1301CC61FD5006F5BD7 /* Debug */,
+				777ED1311CC61FD5006F5BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		777ED1321CC61FD5006F5BD7 /* Build configuration list for PBXNativeTarget "BookShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777ED1331CC61FD5006F5BD7 /* Debug */,
+				777ED1341CC61FD5006F5BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		777ED1351CC61FD5006F5BD7 /* Build configuration list for PBXNativeTarget "BookShelfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777ED1361CC61FD5006F5BD7 /* Debug */,
+				777ED1371CC61FD5006F5BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		777ED1381CC61FD5006F5BD7 /* Build configuration list for PBXNativeTarget "BookShelfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777ED1391CC61FD5006F5BD7 /* Debug */,
+				777ED13A1CC61FD5006F5BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 777ED1021CC61FD5006F5BD7 /* Project object */;
+}
